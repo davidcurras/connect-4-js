@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 5vw;
+  font-weight: bolder;
+  margin: 1vw;
+}
+
+h2 {
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 1vw;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+#board {
+  padding: .7vw;
+  border-radius: 1vw;
+  background-color: #00C;
+}
+
+.slot {
+  width: 4vw;
+  height: 4vw;
+  margin: .4vw;
+  border-radius: 4vw;
+  background-color: #FFF;
+}
+
+.slot.red {
+  background-color: #F00;
+}
+
+.slot.yellow {
+  background-color: #FF0;
+}
