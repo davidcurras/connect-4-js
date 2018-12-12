@@ -8,75 +8,15 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/micro.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/board.js" charset="utf-8"></script>
+    <script src="js/render.js" charset="utf-8"></script>
+    <script src="js/handlers.js" charset="utf-8"></script>
+    <script src="js/game.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="wrapper flex-col-a">
       <h1>Connect 4</h1>
-      <div id="board" class="flex-row-a outer-shadow">
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow red"></div>
-          <div class="slot inner-shadow red"></div>
-          <div class="slot inner-shadow yellow"></div>
-          <div class="slot inner-shadow yellow"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow yellow"></div>
-          <div class="slot inner-shadow red"></div>
-          <div class="slot inner-shadow red"></div>
-        </div>
-        <div class="column flex-col-a">
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow"></div>
-          <div class="slot inner-shadow yellow"></div>
-          <div class="slot inner-shadow red"></div>
-        </div>
-      </div>
+      <div id="board" class="flex-row-a outer-shadow"></div>
       <div class="players flex-row-a">
         <div class="slot outer-shadow red"></div>
         <h2>Player 1</h2>
