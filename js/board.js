@@ -8,9 +8,11 @@ Connect4.Board = {
     [null, null, null, null, null, null, null],
     [null, null, null, null, null, null, null],
     [null, null, null, null, null, null, null],
-    [null, null, null, 'yellow', 'red', null, null],
-    [null, null, null, 'yellow', 'yellow', 'red', null],
-    [null, 'red', 'yellow', 'red', 'red', 'yellow', null]
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null],
   ],
+  Player1: 'red',
+  Player2: 'yellow',
   PlayerTurn: 1
 }
