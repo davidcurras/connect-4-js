@@ -26,6 +26,10 @@ h2 {
   background-color: #00C;
 }
 
+.column {
+  cursor: pointer;
+}
+
 .slot {
   width: 4vw;
   height: 4vw;

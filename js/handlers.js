@@ -7,16 +7,15 @@ Connect4.Handlers = {
   Init: () => {
     Connect4.Render.Board()
     const boardHTML = document.getElementById('board')
-    const slots = boardHTML.getElementsByClassName('slot')
-    for (let i = 0; i < slots.length; i++) {
-      slots[i].onclick = Connect4.Handlers.SlotClick
+    const columns = boardHTML.getElementsByClassName('column')
+    for (let i = 0; i < columns.length; i++) {
+      columns[i].onclick = Connect4.Handlers.SlotClick
     }
   },
 
   SlotClick: evt => {
     const cId = parseInt(evt.target.id.substring(1, 2))
-    const sId = parseInt(evt.target.id.substring(3, 4))
-    console.log(cId, sId)
+    Connect4.FillSlot(cId)
   }
 
 }

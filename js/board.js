@@ -14,5 +14,5 @@ Connect4.Board = {
   ],
   Player1: 'red',
   Player2: 'yellow',
-  PlayerTurn: 1
+  PlayerTurn: 'red'
 }
