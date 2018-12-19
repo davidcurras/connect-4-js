@@ -6,6 +6,7 @@ Connect4.Handlers = {
 
   Init: () => {
     Connect4.Render.Board()
+    Connect4.Render.Turn()
     const boardHTML = document.getElementById('board')
     const columns = boardHTML.getElementsByClassName('column')
     for (let i = 0; i < columns.length; i++) {

@@ -23,6 +23,11 @@ Connect4.Render = {
       html[j] += '</div>'
     }
     document.getElementById('board').innerHTML = html.join('')
+  },
+
+  Turn: () => {
+    const playerId = Connect4.Board.PlayerTurn === Connect4.Board.Player1 ? 1 : 2
+    document.getElementById('turn').innerHTML = 'Player '+playerId
   }
 
 }
