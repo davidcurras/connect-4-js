@@ -17,4 +17,14 @@ Connect4.FillSlot = columnId => {
   }
 }
 
+Connect4.Reset = () => {
+  for (let i = 0; i < Connect4.Board.Slots.length; i++) {
+    const row = Connect4.Board.Slots[i]
+    for (let j = 0; j < row.length; j++) {
+      row[j] = null
+    }
+  }
+  return Connect4.Handlers.Init()
+}
+
 window.onload = Connect4.Handlers.Init

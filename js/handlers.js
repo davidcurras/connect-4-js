@@ -12,6 +12,8 @@ Connect4.Handlers = {
     for (let i = 0; i < columns.length; i++) {
       columns[i].onclick = Connect4.Handlers.SlotClick
     }
+    const resetHTML = document.getElementById('reset')
+    resetHTML.onclick = Connect4.Reset
   },
 
   SlotClick: evt => {
